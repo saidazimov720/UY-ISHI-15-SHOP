@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="./media/logo-students.jpg" alt="">
+        <div class="searchbar">
+            <input type="search">
+            <span><i class="fa-solid fa-magnifying-glass" style="color:#dee2e7;"></i>
+                Search</span>
+        </div>
+            <div class="icons">
+                <div class="icon_item">
+                    <i class="fa-solid fa-wallet"></i>
+                    <p>cash</p>
+                </div>
+                <div class="icon_item">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <p>location</p>
+                </div>
+                <div class="icon_item">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>Language</p>
+                </div>
+                <div class="icon_item">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <p>basket</p>
+                </div>
+                <div class="icon_item">
+                    <i class="fa-regular fa-heart" style="color: #161717;"></i>
+                    <p>liked</p>
+                </div>
+                <div class="icon_item">
+                    <i class="fa-regular fa-user" style="color: #0c0c0e;"></i>
+                    <p>account</p>
+                </div>
+            </div>
+    </header>
+    <div class="cat">
+        <span><i class="fa-solid fa-bars" style="color: #020203;"></i>All categories</span>
+        <span><i class="fa-solid fa-graduation-cap" style="color: #1b1c1d;"></i>Student</span>
+        <span>Conditsioners</span>
+        <span>News</span>
+        <span>Books</span>
+        <span>Gadjets</span>
+        <span>Laptops</span>
+
+    </div>
+    <div class="result">
+        <h1>Your backet</h1>
+        <p id="sum"><span>Total sum:</span></p>
+        <p id="item"><span>Total items:</span></p>
+    </div>
+    <article>
+        <div class="box">
+            <img src="./media/Dell vostro .jpg" alt="">
+            <p> Ноутбук Dell Vostro 3400. Core i5-1135G7. DDR4 8GB. </p>
+            <p>Cash: 8 319 000 sum.</p>
+            <button onclick="solve(8319000)">Buy</button>
+        </div>
+        <div class="box">
+            <img style="padding: 56px 0 23px 0;" src="./media/hp 15s.jpg" alt="">
+            <p>HP 15S-EQ2012NE, Ryzen 5-5500U, DDR4 8Gb</p>
+            <p>Cash: 5 539 000 sum.</p>
+            <button onclick="solve(5539000)">Buy</button>
+        </div>
+        <div class="box">
+            <img style="padding-top:16px;" src="./media/hp 255.jpg" alt="">
+            <p>HP 255 G9 Ryzen R5-5625U 8GB 512GB FHD</p>
+            <p>Cash: 5 649 000 sum</p>
+            <button onclick="solve(5649000)">Buy</button>
+        </div>
+        <div class="box">
+            <img src="./media/lenovo v15.jpg" alt="">
+            <p>Lenovo V15 Core i5-1135G7 DDR4 8GB SSD 256G</p>
+            <p>Cash: 5 839 000 sum</p>
+            <button onclick="solve(5839000)">Buy</button>
+        </div>
+        <div class="box">
+            <img style="padding-top: 50px;" src="./media/macbook air 13 m2.jpg" alt="">
+            <p>Ноутбук Apple MacBook Air 13 M2 16GB/512GB Midnight</p>
+            <p>Cash: 24 709 000 sum</p>
+            <button onclick="solve(24709000)">Buy</button>
+        </div>
+        <div class="box">
+            <img style="padding-top: 50px;" src="./media/macbook air 13 m2.jpg" alt="">
+            <p>Ноутбук Apple MacBook Air 13 M2 16GB/512GB Midnight</p>
+            <p>Cash: 24 709 000 sum</p>
+            <button onclick="solve(24709000)">Buy</button>
+        </div>
+        <div class="box">
+            <img style="padding-top: 50px;" src="./media/macbook air 13 m2.jpg" alt="">
+            <p>Ноутбук Apple MacBook Air 13 M2 16GB/512GB Midnight</p>
+            <p>Cash: 24 709 000 sum</p>
+            <button onclick="solve(24709000)">Buy</button>
+        </div>
+        <div class="box">
+            <img style="padding-top: 50px;" src="./media/macbook air 13 m2.jpg" alt="">
+            <p>Ноутбук Apple MacBook Air 13 M2 16GB/512GB Midnight</p>
+            <p>Cash: 24 709 000 sum</p>
+            <button onclick="solve(24709000)">Buy</button>
+        </div>
+        <div class="box">
+            <img src="./media/macbook air 13.jpg" alt="">
+            <p>Ноутбук Apple MacBook Air 13 M1 8/256</p>
+            <p>Cash: 11 179 000 sum</p>
+            <button onclick="solve(11179000)">Buy</button>
+        </div>
+        <div class="box">
+            <img src="./media/macbook air 13.jpg" alt="">
+            <p>Ноутбук Apple MacBook Air 13 M1 8/256</p>
+            <p>Cash: 11 179 000</p>
+            <button onclick="solve(11179000)">Buy</button>
+        </div>
+        <div class="box">
+            <img src="./media/macbook air 13.jpg" alt="">
+            <p>Ноутбук Apple MacBook Air 13 M1 8/256</p>
+            <p>Cash: 11 179 000 sum</p>
+            <button onclick="solve(11179000)">Buy</button>
+        </div>
+        <div class="box">
+            <img src="./media/macbook air 13.jpg" alt="">
+            <p>Ноутбук Apple MacBook Air 13 M1 8/256</p>
+            <p>Cash: 11 179 000</p>
+            <button onclick="solve(11179000)">Buy</button>
+        </div>
+    </article>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

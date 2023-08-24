@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    // background-color: #f4f7fd;
+}
+
+header{
+    display: flex;
+    justify-content: start;
+    margin-top: 25px;
+    border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+
+    img{
+        width: 10%;
+        height: 10%;
+        margin-bottom: 25px;
+        margin-right: 25px;
+        padding-top: 25px;
+    }
+
+    .searchbar{
+        display: flex;
+        justify-content: space-between;
+        // padding-top: 25px;
+        margin-top: 25px;
+
+        border: 1px solid black;
+        border-radius: 15px;
+        // margin-right: 400px;
+        background-color: blue;
+        margin-bottom: 25px;
+        position: sticky;
+        top: 40px;
+        
+
+        input{
+            height: 25px;
+            width: 410px;
+            padding: 15px;
+            border-radius: 15px;
+        }
+        span{
+            color: white;
+        }
+    }
+
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        width: 750px;
+        margin-top: 25px;
+
+        icon_item{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            
+        }
+        i{
+            font-size: 40px;
+        }
+        
+    }
+}
+
+.cat{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 87px;
+    background-color: white;
+
+    span{
+        font-size: 20px;
+        font-family: sans-serif;
+        // padding: 15px 0 15px 0;
+        cursor: pointer;
+
+        &:hover{
+            color: blue;
+        }
+    }
+}
+
+.result{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    background-color: grey;  
+    position: sticky;
+    top: 110px;
+
+    p{
+        color: white;
+        span{
+            color: white;
+        }
+    }
+}
+
+
+article{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .box{
+        width: 350px;
+        border: 1px solid black;
+        border-radius: 15px;
+        line-height: 15px;
+        margin-top: 25px;
+
+        img{
+            width: 75%;
+        }
+
+        button{
+            font-size: 20px;
+            padding: 10px 40px;
+            text-align: center;
+            background-color: lightblue;
+            border-color: transparent;
+            border-radius: 15px;
+
+            &:hover{
+                background-color: blue;
+                color: white;
+            }
+        }
+    }
+}

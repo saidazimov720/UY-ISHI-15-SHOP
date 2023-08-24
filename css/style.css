@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  margin-top: 25px;
+  border-bottom: 1px solid grey;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+header img {
+  width: 10%;
+  height: 10%;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  padding-top: 25px;
+}
+header .searchbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: blue;
+  margin-bottom: 25px;
+  position: sticky;
+  top: 40px;
+}
+header .searchbar input {
+  height: 25px;
+  width: 410px;
+  padding: 15px;
+  border-radius: 15px;
+}
+header .searchbar span {
+  color: white;
+}
+header .icons {
+  display: flex;
+  justify-content: space-around;
+  width: 750px;
+  margin-top: 25px;
+}
+header .icons icon_item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+header .icons i {
+  font-size: 40px;
+}
+
+.cat {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 87px;
+  background-color: white;
+}
+.cat span {
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.cat span:hover {
+  color: blue;
+}
+
+.result {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 45px;
+  background-color: grey;
+  position: sticky;
+  top: 110px;
+}
+.result p {
+  color: white;
+}
+.result p span {
+  color: white;
+}
+
+article {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+article .box {
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 15px;
+  line-height: 15px;
+  margin-top: 25px;
+}
+article .box img {
+  width: 75%;
+}
+article .box button {
+  font-size: 20px;
+  padding: 10px 40px;
+  text-align: center;
+  background-color: lightblue;
+  border-color: transparent;
+  border-radius: 15px;
+}
+article .box button:hover {
+  background-color: blue;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
