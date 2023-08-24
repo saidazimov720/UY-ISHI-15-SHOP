@@ -7,6 +7,6 @@ function solve(cashAmount) {
     totalSum += cashAmount;
     itemCount++;
     
-    sum.innerHTML = `<span>Total cost: ${totalSum} so'm</span>`;
+    sum.innerHTML = `<span>Total cost: ${totalSum.toLocaleString("uz")} so'm</span>`;
     item.innerHTML = `<span>Total items: ${itemCount}</span>`;
 }
