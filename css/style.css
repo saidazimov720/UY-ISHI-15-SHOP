@@ -118,3 +118,71 @@ article .box button:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* Adjust header styles for smaller screens */
+@media (max-width: 768px) {
+  header {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  header img {
+    width: 50%;
+    margin: 0 auto;
+  }
+  header .searchbar {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  header .searchbar input {
+    width: 100%;
+    margin: 10px 0;
+  }
+  header .icons {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+/* Adjust category styles for smaller screens */
+@media (max-width: 768px) {
+  .cat {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Adjust result styles for smaller screens */
+@media (max-width: 768px) {
+  .result {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .result p {
+    margin-top: 10px;
+  }
+}
+
+/* Adjust article styles for smaller screens */
+@media (max-width: 768px) {
+  article {
+    flex-direction: column;
+    align-items: center;
+  }
+  article .box {
+    width: 90%;
+  }
+  article .box img {
+    width: 100%;
+  }
+  article .box button {
+    margin-top: 10px;
+  }
+}
+
